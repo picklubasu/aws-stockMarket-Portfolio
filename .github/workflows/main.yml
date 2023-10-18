@@ -5,6 +5,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Run a python script
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
+      
+      - name: Run a python script  
         run: python sample.py
