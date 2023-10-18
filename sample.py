@@ -20,4 +20,4 @@ request_header = {
 request_url = 'https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20TOTAL%20MARKET'
 
 response = requests.get(url = request_url, headers = request_header)
-response.json()
+print(response.json())
