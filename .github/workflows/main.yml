@@ -4,7 +4,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - users: actions/checkout@v3
-      - name: Run a python script
-      run: python sample.py
+  steps:
+    - users: actions/checkout@v3
+    - name: Run a python script
+    run: python sample.py
